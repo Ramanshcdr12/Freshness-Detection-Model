@@ -1,0 +1,38 @@
+---
+alwaysApply: true
+---
+# Freshness Detection of Fruits and Vegetables
+I want to make freshness detection of fruits and vegetables in which I want the user to scan the fruits and vegetables and user gets the following details of the furit/vegetable
+- Freshness percentage
+- How many days will the fruit/vegetable be healthy or fresh or goof to use and eat
+- The Calories it contain
+- Benefit of having that item
+- With and without refrigerator how long its usable
+
+# What the user will get (final product features)
+When a user scans a fruit/vegetable (photo or live camera), the app returns:
+-Detected item (name + confidence)
+-Mentioning on what basis it's predicted item's freshness
+-Freshness percentage (0–100%) with explanation (visual heatmap of regions affecting the decision)
+-Estimated usable days (how many days it will remain good to eat)
+-Without refrigerator (ambient conditions)
+-With refrigerator (typical fridge conditions)
+-Calories (estimated per whole item or per user-selected weight/portion)
+-Benefits / Nutrition highlights (short bullet list: vitamins, fiber, key health benefits)
+-Action suggestion (use now / use within X days / cook / freeze / discard)
+-Confidence & uncertainty (probability + why — e.g., lighting poor, occluded)
+-Optional: time-series freshness prediction (graph), storage tips, recipe suggestions according to Indian Cuisine
+
+# UX / UI flow (simple & clear)
+Launch camera → auto-detect bounding box around item → user taps “Scan”
+Progress states: analyzing (small spinner) → result card appears
+Result card layout:
+
+-Top: detected item & confidence
+-Big freshness gauge (0–100%)
+-Two columns: Days usable (no fridge / fridge)
+-Calories + portion selector dropdown
+-Benefits (3–5 bullets)
+-“Why this result” (small expandable: Grad-CAM heatmap + short text)
+-Buttons: Save log / Use-recipe / Share / Retake
+

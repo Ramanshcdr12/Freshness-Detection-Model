@@ -1,0 +1,54 @@
+{
+  "storage_conditions": {
+    "refrigerator": {
+      "temperature_range": "1-4°C",
+      "humidity": "High (85-95%)",
+      "description": "Crisper drawer or vegetable compartment maintains optimal humidity"
+    },
+    "ambient": {
+      "temperature_range": "18-25°C",
+      "humidity": "Moderate (50-70%)",
+      "description": "Room temperature, well-ventilated area away from direct sunlight"
+    },
+    "cool_dark": {
+      "temperature_range": "10-15°C",
+      "humidity": "Low (40-50%)",
+      "description": "Cool, dark, well-ventilated place like pantry or cellar"
+    }
+  },
+  "general_tips": [
+    "Do not wash fruits/vegetables until ready to use",
+    "Remove any damaged or spoiled items to prevent spread",
+    "Store ethylene-producing fruits (apples, bananas) separately",
+    "Keep root vegetables in cool, dark places",
+    "Use perforated bags for better air circulation",
+    "Check regularly and remove any spoiled items",
+    "Store cut items in airtight containers in refrigerator"
+  ],
+  "indian_recipes": {
+    "apple": ["Apple Halwa", "Apple Kheer", "Apple Chutney"],
+    "banana": ["Banana Halwa", "Banana Dosa", "Banana Lassi"],
+    "tomato": ["Tomato Curry", "Tomato Rasam", "Tomato Chutney"],
+    "potato": ["Aloo Gobi", "Aloo Paratha", "Aloo Tikki"],
+    "onion": ["Pyaz Ki Sabzi", "Onion Pakora", "Onion Raita"],
+    "cucumber": ["Kheera Raita", "Cucumber Salad", "Kheera Pachadi"],
+    "spinach": ["Palak Paneer", "Palak Dal", "Palak Paratha"],
+    "cauliflower": ["Gobi Masala", "Gobi Manchurian", "Aloo Gobi"],
+    "eggplant": ["Baingan Bharta", "Baingan Masala", "Baingan Pakora"],
+    "okra": ["Bhindi Masala", "Bhindi Fry", "Bhindi Do Pyaza"],
+    "mango": ["Mango Lassi", "Mango Pickle", "Aamras"],
+    "coconut": ["Coconut Chutney", "Coconut Ladoo", "Coconut Rice"],
+    "ginger": ["Ginger Tea", "Ginger Chutney", "Adrak Ka Achar"],
+    "garlic": ["Garlic Chutney", "Lehsun Ka Achar", "Garlic Naan"],
+    "coriander": ["Dhaniya Chutney", "Coriander Rice", "Dhaniya Aloo"],
+    "mint": ["Pudina Chutney", "Mint Rice", "Pudina Paratha"],
+    "radish": ["Mooli Paratha", "Mooli Ki Sabzi", "Radish Salad"],
+    "beetroot": ["Beetroot Raita", "Beetroot Halwa", "Beetroot Salad"],
+    "sweet_potato": ["Shakarkand Halwa", "Sweet Potato Curry", "Roasted Shakarkand"],
+    "peas": ["Matar Paneer", "Matar Pulao", "Matar Ki Sabzi"],
+    "bottle_gourd": ["Lauki Ki Sabzi", "Lauki Kofta", "Lauki Dal"],
+    "bitter_gourd": ["Karela Fry", "Stuffed Karela", "Karela Sabzi"]
+  }
+}
+
+

@@ -1,0 +1,784 @@
+{
+  "apple": {
+    "name": "Apple",
+    "hindi_name": "सेब",
+    "calories_per_100g": 52,
+    "calories_per_item": 95,
+    "vitamins": ["Vitamin C", "Vitamin K", "Potassium"],
+    "minerals": ["Potassium", "Manganese"],
+    "fiber_g": 2.4,
+    "benefits": [
+      "Rich in antioxidants that may reduce risk of chronic diseases",
+      "High fiber content aids digestion and promotes gut health",
+      "May help lower cholesterol levels",
+      "Contains quercetin which may boost brain health",
+      "Low calorie density helps with weight management"
+    ],
+    "storage_days_fresh": 30,
+    "storage_days_ambient": 7,
+    "storage_days_fridge": 30,
+    "storage_tips": "Store in cool, dry place. Refrigerate to extend freshness. Keep away from other fruits to prevent ripening."
+  },
+  "banana": {
+    "name": "Banana",
+    "hindi_name": "केला",
+    "calories_per_100g": 89,
+    "calories_per_item": 105,
+    "vitamins": ["Vitamin B6", "Vitamin C", "Potassium"],
+    "minerals": ["Potassium", "Magnesium"],
+    "fiber_g": 2.6,
+    "benefits": [
+      "Excellent source of potassium for heart health",
+      "High in vitamin B6 for brain function",
+      "Natural energy booster with easily digestible sugars",
+      "May help regulate blood pressure",
+      "Contains prebiotics that support gut bacteria"
+    ],
+    "storage_days_fresh": 5,
+    "storage_days_ambient": 3,
+    "storage_days_fridge": 7,
+    "storage_tips": "Store at room temperature. Refrigerate when ripe to slow further ripening. Brown spots indicate ripeness."
+  },
+  "orange": {
+    "name": "Orange",
+    "hindi_name": "संतरा",
+    "calories_per_100g": 47,
+    "calories_per_item": 62,
+    "vitamins": ["Vitamin C", "Folate", "Thiamine"],
+    "minerals": ["Potassium", "Calcium"],
+    "fiber_g": 2.4,
+    "benefits": [
+      "Extremely high in Vitamin C, boosting immune system",
+      "Rich in antioxidants that fight inflammation",
+      "May reduce risk of kidney stones",
+      "Supports heart health with flavonoids",
+      "Helps improve iron absorption"
+    ],
+    "storage_days_fresh": 14,
+    "storage_days_ambient": 7,
+    "storage_days_fridge": 14,
+    "storage_tips": "Store at room temperature or refrigerate. Keep in mesh bag for air circulation. Avoid storing with other fruits."
+  },
+  "tomato": {
+    "name": "Tomato",
+    "hindi_name": "टमाटर",
+    "calories_per_100g": 18,
+    "calories_per_item": 22,
+    "vitamins": ["Vitamin C", "Vitamin K", "Folate", "Lycopene"],
+    "minerals": ["Potassium", "Manganese"],
+    "fiber_g": 1.2,
+    "benefits": [
+      "Rich in lycopene, a powerful antioxidant",
+      "May reduce risk of certain cancers",
+      "Supports heart health and lowers cholesterol",
+      "High in Vitamin C for immune support",
+      "Promotes healthy skin and vision"
+    ],
+    "storage_days_fresh": 7,
+    "storage_days_ambient": 5,
+    "storage_days_fridge": 10,
+    "storage_tips": "Store at room temperature until ripe, then refrigerate. Keep stem-side down. Avoid direct sunlight."
+  },
+  "carrot": {
+    "name": "Carrot",
+    "hindi_name": "गाजर",
+    "calories_per_100g": 41,
+    "calories_per_item": 25,
+    "vitamins": ["Vitamin A (Beta-carotene)", "Vitamin K", "Biotin"],
+    "minerals": ["Potassium", "Manganese"],
+    "fiber_g": 2.8,
+    "benefits": [
+      "Extremely high in beta-carotene for eye health",
+      "May reduce risk of certain cancers",
+      "Supports immune system function",
+      "Promotes healthy skin and anti-aging",
+      "High fiber aids digestion"
+    ],
+    "storage_days_fresh": 21,
+    "storage_days_ambient": 10,
+    "storage_days_fridge": 30,
+    "storage_tips": "Store in refrigerator crisper drawer. Remove green tops before storing. Keep in perforated plastic bag."
+  },
+  "potato": {
+    "name": "Potato",
+    "hindi_name": "आलू",
+    "calories_per_100g": 77,
+    "calories_per_item": 163,
+    "vitamins": ["Vitamin C", "Vitamin B6", "Potassium"],
+    "minerals": ["Potassium", "Manganese", "Phosphorus"],
+    "fiber_g": 2.2,
+    "benefits": [
+      "Excellent source of potassium for heart health",
+      "High in resistant starch when cooked and cooled",
+      "Provides sustained energy from complex carbs",
+      "Contains antioxidants in the skin",
+      "May help control blood sugar when prepared properly"
+    ],
+    "storage_days_fresh": 60,
+    "storage_days_ambient": 30,
+    "storage_days_fridge": 90,
+    "storage_tips": "Store in cool, dark, well-ventilated place. Do not refrigerate raw potatoes. Keep away from onions."
+  },
+  "onion": {
+    "name": "Onion",
+    "hindi_name": "प्याज",
+    "calories_per_100g": 40,
+    "calories_per_item": 44,
+    "vitamins": ["Vitamin C", "Folate", "Vitamin B6"],
+    "minerals": ["Potassium", "Manganese"],
+    "fiber_g": 1.7,
+    "benefits": [
+      "Rich in quercetin, a powerful antioxidant",
+      "May reduce risk of certain cancers",
+      "Has anti-inflammatory properties",
+      "Supports heart health and blood sugar control",
+      "Contains prebiotics for gut health"
+    ],
+    "storage_days_fresh": 60,
+    "storage_days_ambient": 30,
+    "storage_days_fridge": 90,
+    "storage_tips": "Store in cool, dry, well-ventilated place. Keep away from potatoes. Do not store in plastic bags."
+  },
+  "cucumber": {
+    "name": "Cucumber",
+    "hindi_name": "खीरा",
+    "calories_per_100g": 16,
+    "calories_per_item": 16,
+    "vitamins": ["Vitamin K", "Vitamin C", "Potassium"],
+    "minerals": ["Potassium", "Magnesium"],
+    "fiber_g": 0.5,
+    "benefits": [
+      "Very low in calories, great for weight loss",
+      "High water content keeps you hydrated",
+      "Contains antioxidants like cucurbitacins",
+      "May help lower blood sugar levels",
+      "Promotes healthy skin and reduces inflammation"
+    ],
+    "storage_days_fresh": 7,
+    "storage_days_ambient": 3,
+    "storage_days_fridge": 10,
+    "storage_tips": "Store in refrigerator crisper. Keep dry and wrapped in paper towel. Use within a week for best quality."
+  },
+  "bell_pepper": {
+    "name": "Bell Pepper",
+    "hindi_name": "शिमला मिर्च",
+    "calories_per_100g": 31,
+    "calories_per_item": 30,
+    "vitamins": ["Vitamin C", "Vitamin A", "Vitamin B6"],
+    "minerals": ["Potassium", "Folate"],
+    "fiber_g": 2.5,
+    "benefits": [
+      "Extremely high in Vitamin C (more than oranges)",
+      "Rich in antioxidants for eye health",
+      "May reduce risk of chronic diseases",
+      "Supports immune system function",
+      "Low in calories, high in nutrients"
+    ],
+    "storage_days_fresh": 10,
+    "storage_days_ambient": 5,
+    "storage_days_fridge": 14,
+    "storage_tips": "Store in refrigerator crisper. Keep in perforated bag. Do not wash until ready to use."
+  },
+  "broccoli": {
+    "name": "Broccoli",
+    "hindi_name": "ब्रोकली",
+    "calories_per_100g": 34,
+    "calories_per_item": 55,
+    "vitamins": ["Vitamin C", "Vitamin K", "Folate", "Vitamin A"],
+    "minerals": ["Potassium", "Manganese", "Iron"],
+    "fiber_g": 2.6,
+    "benefits": [
+      "Extremely nutrient-dense superfood",
+      "High in sulforaphane, a powerful anti-cancer compound",
+      "Supports bone health with Vitamin K",
+      "May help reduce inflammation",
+      "Excellent for digestive health"
+    ],
+    "storage_days_fresh": 7,
+    "storage_days_ambient": 3,
+    "storage_days_fridge": 10,
+    "storage_tips": "Store in refrigerator crisper. Keep in perforated bag. Do not wash until ready to use. Best when fresh."
+  },
+  "spinach": {
+    "name": "Spinach",
+    "hindi_name": "पालक",
+    "calories_per_100g": 23,
+    "calories_per_item": 7,
+    "vitamins": ["Vitamin K", "Vitamin A", "Folate", "Vitamin C"],
+    "minerals": ["Iron", "Calcium", "Magnesium"],
+    "fiber_g": 2.2,
+    "benefits": [
+      "Extremely high in iron for blood health",
+      "Rich in Vitamin K for bone strength",
+      "High in antioxidants for eye health",
+      "May reduce risk of chronic diseases",
+      "Supports brain function and memory"
+    ],
+    "storage_days_fresh": 5,
+    "storage_days_ambient": 2,
+    "storage_days_fridge": 7,
+    "storage_tips": "Store in refrigerator crisper. Keep in airtight container with paper towel. Use quickly as it wilts fast."
+  },
+  "mango": {
+    "name": "Mango",
+    "hindi_name": "आम",
+    "calories_per_100g": 60,
+    "calories_per_item": 202,
+    "vitamins": ["Vitamin C", "Vitamin A", "Folate"],
+    "minerals": ["Potassium", "Copper"],
+    "fiber_g": 1.6,
+    "benefits": [
+      "King of fruits with rich flavor and nutrients",
+      "High in Vitamin A for eye and skin health",
+      "Rich in antioxidants like mangiferin",
+      "May help improve digestion",
+      "Supports immune system function"
+    ],
+    "storage_days_fresh": 7,
+    "storage_days_ambient": 5,
+    "storage_days_fridge": 10,
+    "storage_tips": "Store at room temperature until ripe, then refrigerate. Keep away from other fruits. Ripen in paper bag."
+  },
+  "grapes": {
+    "name": "Grapes",
+    "hindi_name": "अंगूर",
+    "calories_per_100g": 69,
+    "calories_per_item": 3,
+    "vitamins": ["Vitamin K", "Vitamin C", "Thiamine"],
+    "minerals": ["Potassium", "Copper"],
+    "fiber_g": 0.9,
+    "benefits": [
+      "Rich in resveratrol, a powerful antioxidant",
+      "May support heart health and reduce inflammation",
+      "Contains compounds that may protect against cancer",
+      "High water content for hydration",
+      "Natural source of energy"
+    ],
+    "storage_days_fresh": 7,
+    "storage_days_ambient": 3,
+    "storage_days_fridge": 10,
+    "storage_tips": "Store in refrigerator in original packaging. Do not wash until ready to eat. Keep in crisper drawer."
+  },
+  "strawberry": {
+    "name": "Strawberry",
+    "hindi_name": "स्ट्रॉबेरी",
+    "calories_per_100g": 32,
+    "calories_per_item": 4,
+    "vitamins": ["Vitamin C", "Folate", "Manganese"],
+    "minerals": ["Manganese", "Potassium"],
+    "fiber_g": 2.0,
+    "benefits": [
+      "Extremely high in Vitamin C",
+      "Rich in antioxidants like ellagic acid",
+      "May help regulate blood sugar",
+      "Supports heart health",
+      "Promotes healthy skin and anti-aging"
+    ],
+    "storage_days_fresh": 5,
+    "storage_days_ambient": 2,
+    "storage_days_fridge": 7,
+    "storage_tips": "Store in refrigerator, do not wash until ready to eat. Keep in original container. Use quickly as they spoil fast."
+  },
+  "watermelon": {
+    "name": "Watermelon",
+    "hindi_name": "तरबूज",
+    "calories_per_100g": 30,
+    "calories_per_item": 86,
+    "vitamins": ["Vitamin C", "Vitamin A"],
+    "minerals": ["Potassium", "Magnesium"],
+    "fiber_g": 0.4,
+    "benefits": [
+      "Extremely high water content for hydration",
+      "Rich in lycopene for heart health",
+      "Contains citrulline that may improve exercise performance",
+      "Low in calories, refreshing summer fruit",
+      "May help reduce muscle soreness"
+    ],
+    "storage_days_fresh": 7,
+    "storage_days_ambient": 5,
+    "storage_days_fridge": 10,
+    "storage_tips": "Store whole at room temperature. Once cut, refrigerate wrapped. Best consumed fresh. Keep cut pieces covered."
+  },
+  "papaya": {
+    "name": "Papaya",
+    "hindi_name": "पपीता",
+    "calories_per_100g": 43,
+    "calories_per_item": 119,
+    "vitamins": ["Vitamin C", "Vitamin A", "Folate"],
+    "minerals": ["Potassium", "Magnesium"],
+    "fiber_g": 1.7,
+    "benefits": [
+      "Rich in papain enzyme that aids digestion",
+      "High in Vitamin C and antioxidants",
+      "May reduce inflammation",
+      "Supports skin health and wound healing",
+      "Good source of fiber for digestive health"
+    ],
+    "storage_days_fresh": 5,
+    "storage_days_ambient": 3,
+    "storage_days_fridge": 7,
+    "storage_tips": "Store at room temperature until ripe, then refrigerate. Ripen in paper bag. Eat when slightly soft."
+  },
+  "pomegranate": {
+    "name": "Pomegranate",
+    "hindi_name": "अनार",
+    "calories_per_100g": 83,
+    "calories_per_item": 234,
+    "vitamins": ["Vitamin C", "Vitamin K", "Folate"],
+    "minerals": ["Potassium", "Copper"],
+    "fiber_g": 4.0,
+    "benefits": [
+      "Extremely high in antioxidants (punicalagins)",
+      "May reduce inflammation and lower blood pressure",
+      "Rich in punicic acid for heart health",
+      "May improve memory and brain function",
+      "High fiber content aids digestion"
+    ],
+    "storage_days_fresh": 30,
+    "storage_days_ambient": 14,
+    "storage_days_fridge": 60,
+    "storage_tips": "Store whole in refrigerator. Once opened, seeds can be refrigerated for 5 days. Keep in airtight container."
+  },
+  "cabbage": {
+    "name": "Cabbage",
+    "hindi_name": "पत्ता गोभी",
+    "calories_per_100g": 25,
+    "calories_per_item": 22,
+    "vitamins": ["Vitamin K", "Vitamin C", "Folate"],
+    "minerals": ["Potassium", "Manganese"],
+    "fiber_g": 2.5,
+    "benefits": [
+      "Very low in calories, great for weight loss",
+      "High in Vitamin K for bone health",
+      "Contains compounds that may reduce inflammation",
+      "Rich in antioxidants",
+      "May support digestive health"
+    ],
+    "storage_days_fresh": 14,
+    "storage_days_ambient": 7,
+    "storage_days_fridge": 21,
+    "storage_tips": "Store in refrigerator crisper. Keep outer leaves intact until use. Wrap in plastic to retain moisture."
+  },
+  "cauliflower": {
+    "name": "Cauliflower",
+    "hindi_name": "फूल गोभी",
+    "calories_per_100g": 25,
+    "calories_per_item": 25,
+    "vitamins": ["Vitamin C", "Vitamin K", "Folate", "Choline"],
+    "minerals": ["Potassium", "Manganese"],
+    "fiber_g": 2.0,
+    "benefits": [
+      "Low in calories, high in nutrients",
+      "Rich in choline for brain health",
+      "High in antioxidants",
+      "May reduce risk of certain diseases",
+      "Versatile vegetable, great low-carb substitute"
+    ],
+    "storage_days_fresh": 7,
+    "storage_days_ambient": 3,
+    "storage_days_fridge": 10,
+    "storage_tips": "Store in refrigerator crisper. Keep in perforated bag. Do not wash until ready to use. Best when fresh."
+  },
+  "eggplant": {
+    "name": "Eggplant",
+    "hindi_name": "बैंगन",
+    "calories_per_100g": 25,
+    "calories_per_item": 20,
+    "vitamins": ["Folate", "Vitamin K", "Thiamine"],
+    "minerals": ["Potassium", "Manganese"],
+    "fiber_g": 3.0,
+    "benefits": [
+      "High in fiber for digestive health",
+      "Contains nasunin, a powerful antioxidant",
+      "May help lower cholesterol",
+      "Low in calories, nutrient-dense",
+      "Supports heart health"
+    ],
+    "storage_days_fresh": 7,
+    "storage_days_ambient": 5,
+    "storage_days_fridge": 10,
+    "storage_tips": "Store in refrigerator crisper. Keep in perforated bag. Use quickly as it can become bitter with age."
+  },
+  "okra": {
+    "name": "Okra",
+    "hindi_name": "भिंडी",
+    "calories_per_100g": 33,
+    "calories_per_item": 33,
+    "vitamins": ["Vitamin K", "Vitamin C", "Folate"],
+    "minerals": ["Manganese", "Magnesium"],
+    "fiber_g": 3.2,
+    "benefits": [
+      "High in soluble fiber for blood sugar control",
+      "Rich in antioxidants",
+      "May help lower cholesterol",
+      "Good source of Vitamin K for bone health",
+      "Supports digestive health"
+    ],
+    "storage_days_fresh": 5,
+    "storage_days_ambient": 3,
+    "storage_days_fridge": 7,
+    "storage_tips": "Store in refrigerator crisper. Keep dry in paper bag. Use quickly as it becomes slimy with age."
+  },
+  "coconut": {
+    "name": "Coconut",
+    "hindi_name": "नारियल",
+    "calories_per_100g": 354,
+    "calories_per_item": 1405,
+    "vitamins": ["Folate", "Choline"],
+    "minerals": ["Manganese", "Copper", "Selenium"],
+    "fiber_g": 9.0,
+    "benefits": [
+      "High in healthy medium-chain triglycerides (MCTs)",
+      "Rich in manganese for bone health",
+      "Contains lauric acid with antimicrobial properties",
+      "High fiber content aids digestion",
+      "Natural source of electrolytes"
+    ],
+    "storage_days_fresh": 30,
+    "storage_days_ambient": 14,
+    "storage_days_fridge": 60,
+    "storage_tips": "Store whole coconut at room temperature. Once opened, refrigerate coconut water and meat separately."
+  },
+  "guava": {
+    "name": "Guava",
+    "hindi_name": "अमरूद",
+    "calories_per_100g": 68,
+    "calories_per_item": 112,
+    "vitamins": ["Vitamin C", "Folate", "Vitamin A"],
+    "minerals": ["Potassium", "Copper"],
+    "fiber_g": 5.4,
+    "benefits": [
+      "Extremely high in Vitamin C (4x more than oranges)",
+      "High fiber content aids digestion",
+      "May help lower blood sugar levels",
+      "Rich in antioxidants",
+      "Supports immune system and skin health"
+    ],
+    "storage_days_fresh": 5,
+    "storage_days_ambient": 3,
+    "storage_days_fridge": 7,
+    "storage_tips": "Store at room temperature until ripe, then refrigerate. Ripen in paper bag. Eat when slightly soft."
+  },
+  "lemon": {
+    "name": "Lemon",
+    "hindi_name": "नींबू",
+    "calories_per_100g": 29,
+    "calories_per_item": 17,
+    "vitamins": ["Vitamin C", "Folate"],
+    "minerals": ["Potassium"],
+    "fiber_g": 2.8,
+    "benefits": [
+      "Extremely high in Vitamin C",
+      "May improve iron absorption",
+      "Contains citric acid that may prevent kidney stones",
+      "Supports heart health",
+      "Natural detoxifying properties"
+    ],
+    "storage_days_fresh": 14,
+    "storage_days_ambient": 7,
+    "storage_days_fridge": 30,
+    "storage_tips": "Store at room temperature or refrigerate. Keep in mesh bag. Can be stored for weeks when fresh."
+  },
+  "ginger": {
+    "name": "Ginger",
+    "hindi_name": "अदरक",
+    "calories_per_100g": 80,
+    "calories_per_item": 4,
+    "vitamins": ["Vitamin B6", "Vitamin C"],
+    "minerals": ["Potassium", "Manganese", "Copper"],
+    "fiber_g": 2.0,
+    "benefits": [
+      "Powerful anti-inflammatory properties",
+      "May reduce nausea and morning sickness",
+      "Contains gingerol with medicinal properties",
+      "May help reduce muscle pain and soreness",
+      "Supports digestive health"
+    ],
+    "storage_days_fresh": 21,
+    "storage_days_ambient": 14,
+    "storage_days_fridge": 30,
+    "storage_tips": "Store in refrigerator in airtight container. Can be frozen for longer storage. Keep dry."
+  },
+  "garlic": {
+    "name": "Garlic",
+    "hindi_name": "लहसुन",
+    "calories_per_100g": 149,
+    "calories_per_item": 4,
+    "vitamins": ["Vitamin B6", "Vitamin C", "Manganese"],
+    "minerals": ["Manganese", "Selenium"],
+    "fiber_g": 2.1,
+    "benefits": [
+      "Contains allicin with powerful medicinal properties",
+      "May boost immune system function",
+      "May reduce blood pressure and cholesterol",
+      "Has antimicrobial and antifungal properties",
+      "May reduce risk of certain cancers"
+    ],
+    "storage_days_fresh": 90,
+    "storage_days_ambient": 60,
+    "storage_days_fridge": 120,
+    "storage_tips": "Store in cool, dry, well-ventilated place. Keep bulbs intact until use. Do not refrigerate whole bulbs."
+  },
+  "coriander": {
+    "name": "Coriander",
+    "hindi_name": "धनिया",
+    "calories_per_100g": 23,
+    "calories_per_item": 1,
+    "vitamins": ["Vitamin K", "Vitamin C", "Vitamin A"],
+    "minerals": ["Potassium", "Manganese"],
+    "fiber_g": 2.8,
+    "benefits": [
+      "Rich in antioxidants",
+      "May help lower blood sugar",
+      "Contains compounds that may reduce inflammation",
+      "Supports heart health",
+      "High in Vitamin K for bone health"
+    ],
+    "storage_days_fresh": 7,
+    "storage_days_ambient": 3,
+    "storage_days_fridge": 10,
+    "storage_tips": "Store in refrigerator with stems in water. Keep in airtight container. Use quickly as it wilts fast."
+  },
+  "mint": {
+    "name": "Mint",
+    "hindi_name": "पुदीना",
+    "calories_per_100g": 44,
+    "calories_per_item": 1,
+    "vitamins": ["Vitamin A", "Folate"],
+    "minerals": ["Iron", "Manganese"],
+    "fiber_g": 8.0,
+    "benefits": [
+      "May improve digestion and reduce IBS symptoms",
+      "Natural breath freshener",
+      "Contains menthol with cooling properties",
+      "May help reduce nausea",
+      "Rich in antioxidants"
+    ],
+    "storage_days_fresh": 7,
+    "storage_days_ambient": 3,
+    "storage_days_fridge": 10,
+    "storage_tips": "Store in refrigerator with stems in water. Keep in airtight container. Can be frozen for longer storage."
+  },
+  "radish": {
+    "name": "Radish",
+    "hindi_name": "मूली",
+    "calories_per_100g": 16,
+    "calories_per_item": 1,
+    "vitamins": ["Vitamin C", "Folate"],
+    "minerals": ["Potassium"],
+    "fiber_g": 1.6,
+    "benefits": [
+      "Very low in calories",
+      "High in Vitamin C",
+      "May support liver function",
+      "Contains compounds that may reduce inflammation",
+      "Supports digestive health"
+    ],
+    "storage_days_fresh": 10,
+    "storage_days_ambient": 5,
+    "storage_days_fridge": 14,
+    "storage_tips": "Store in refrigerator crisper. Remove green tops before storing. Keep in perforated bag. Best when fresh."
+  },
+  "beetroot": {
+    "name": "Beetroot",
+    "hindi_name": "चुकंदर",
+    "calories_per_100g": 43,
+    "calories_per_item": 35,
+    "vitamins": ["Folate", "Vitamin C"],
+    "minerals": ["Potassium", "Manganese", "Iron"],
+    "fiber_g": 2.8,
+    "benefits": [
+      "May improve athletic performance and endurance",
+      "Rich in nitrates that may lower blood pressure",
+      "High in folate for cell growth",
+      "Contains betalains with antioxidant properties",
+      "Supports brain health and cognitive function"
+    ],
+    "storage_days_fresh": 14,
+    "storage_days_ambient": 7,
+    "storage_days_fridge": 21,
+    "storage_tips": "Store in refrigerator crisper. Remove green tops before storing. Keep in perforated bag. Can be stored for weeks."
+  },
+  "sweet_potato": {
+    "name": "Sweet Potato",
+    "hindi_name": "शकरकंद",
+    "calories_per_100g": 86,
+    "calories_per_item": 103,
+    "vitamins": ["Vitamin A (Beta-carotene)", "Vitamin C", "Manganese"],
+    "minerals": ["Potassium", "Manganese"],
+    "fiber_g": 3.0,
+    "benefits": [
+      "Extremely high in beta-carotene for eye health",
+      "Rich in antioxidants",
+      "May improve blood sugar regulation",
+      "Supports immune system function",
+      "High fiber content aids digestion"
+    ],
+    "storage_days_fresh": 30,
+    "storage_days_ambient": 14,
+    "storage_days_fridge": 60,
+    "storage_tips": "Store in cool, dark, well-ventilated place. Do not refrigerate raw. Keep away from moisture."
+  },
+  "corn": {
+    "name": "Corn",
+    "hindi_name": "मक्का",
+    "calories_per_100g": 96,
+    "calories_per_item": 77,
+    "vitamins": ["Folate", "Thiamine", "Niacin"],
+    "minerals": ["Phosphorus", "Manganese"],
+    "fiber_g": 2.7,
+    "benefits": [
+      "Good source of fiber for digestive health",
+      "Rich in antioxidants like lutein and zeaxanthin",
+      "May support eye health",
+      "Provides sustained energy",
+      "Contains B vitamins for energy metabolism"
+    ],
+    "storage_days_fresh": 3,
+    "storage_days_ambient": 2,
+    "storage_days_fridge": 5,
+    "storage_tips": "Store in refrigerator with husks on. Use quickly as sugar converts to starch. Best when very fresh."
+  },
+  "peas": {
+    "name": "Peas",
+    "hindi_name": "मटर",
+    "calories_per_100g": 81,
+    "calories_per_item": 3,
+    "vitamins": ["Vitamin K", "Folate", "Vitamin C"],
+    "minerals": ["Manganese", "Phosphorus"],
+    "fiber_g": 5.5,
+    "benefits": [
+      "High in protein for a vegetable",
+      "Rich in fiber for digestive health",
+      "May help control blood sugar",
+      "Contains antioxidants",
+      "Supports heart health"
+    ],
+    "storage_days_fresh": 5,
+    "storage_days_ambient": 2,
+    "storage_days_fridge": 7,
+    "storage_tips": "Store in refrigerator in original packaging. Use quickly as they lose sweetness. Can be frozen for longer storage."
+  },
+  "brinjal": {
+    "name": "Brinjal",
+    "hindi_name": "बैंगन",
+    "calories_per_100g": 25,
+    "calories_per_item": 20,
+    "vitamins": ["Folate", "Vitamin K", "Thiamine"],
+    "minerals": ["Potassium", "Manganese"],
+    "fiber_g": 3.0,
+    "benefits": [
+      "High in fiber for digestive health",
+      "Contains nasunin, a powerful antioxidant",
+      "May help lower cholesterol",
+      "Low in calories, nutrient-dense",
+      "Supports heart health"
+    ],
+    "storage_days_fresh": 7,
+    "storage_days_ambient": 5,
+    "storage_days_fridge": 10,
+    "storage_tips": "Store in refrigerator crisper. Keep in perforated bag. Use quickly as it can become bitter with age."
+  },
+  "ladyfinger": {
+    "name": "Ladyfinger",
+    "hindi_name": "भिंडी",
+    "calories_per_100g": 33,
+    "calories_per_item": 33,
+    "vitamins": ["Vitamin K", "Vitamin C", "Folate"],
+    "minerals": ["Manganese", "Magnesium"],
+    "fiber_g": 3.2,
+    "benefits": [
+      "High in soluble fiber for blood sugar control",
+      "Rich in antioxidants",
+      "May help lower cholesterol",
+      "Good source of Vitamin K for bone health",
+      "Supports digestive health"
+    ],
+    "storage_days_fresh": 5,
+    "storage_days_ambient": 3,
+    "storage_days_fridge": 7,
+    "storage_tips": "Store in refrigerator crisper. Keep dry in paper bag. Use quickly as it becomes slimy with age."
+  },
+  "drumstick": {
+    "name": "Drumstick",
+    "hindi_name": "सहजन",
+    "calories_per_100g": 37,
+    "calories_per_item": 4,
+    "vitamins": ["Vitamin C", "Vitamin A", "Folate"],
+    "minerals": ["Potassium", "Calcium"],
+    "fiber_g": 2.0,
+    "benefits": [
+      "High in Vitamin C and antioxidants",
+      "Rich in calcium for bone health",
+      "May help reduce inflammation",
+      "Supports immune system",
+      "Good source of plant-based protein"
+    ],
+    "storage_days_fresh": 5,
+    "storage_days_ambient": 3,
+    "storage_days_fridge": 7,
+    "storage_tips": "Store in refrigerator crisper. Keep in perforated bag. Use quickly as it becomes tough with age."
+  },
+  "bottle_gourd": {
+    "name": "Bottle Gourd",
+    "hindi_name": "लौकी",
+    "calories_per_100g": 15,
+    "calories_per_item": 30,
+    "vitamins": ["Vitamin C", "Folate"],
+    "minerals": ["Potassium", "Calcium"],
+    "fiber_g": 0.5,
+    "benefits": [
+      "Very low in calories, great for weight loss",
+      "High water content for hydration",
+      "May help reduce inflammation",
+      "Supports digestive health",
+      "Cooling properties beneficial in summer"
+    ],
+    "storage_days_fresh": 7,
+    "storage_days_ambient": 5,
+    "storage_days_fridge": 10,
+    "storage_tips": "Store in refrigerator crisper. Keep in perforated bag. Use quickly as it becomes soft with age."
+  },
+  "ridge_gourd": {
+    "name": "Ridge Gourd",
+    "hindi_name": "तोरी",
+    "calories_per_100g": 17,
+    "calories_per_item": 17,
+    "vitamins": ["Vitamin C", "Folate"],
+    "minerals": ["Potassium"],
+    "fiber_g": 0.5,
+    "benefits": [
+      "Very low in calories",
+      "High water content",
+      "May help reduce inflammation",
+      "Supports digestive health",
+      "Cooling properties"
+    ],
+    "storage_days_fresh": 5,
+    "storage_days_ambient": 3,
+    "storage_days_fridge": 7,
+    "storage_tips": "Store in refrigerator crisper. Keep in perforated bag. Use quickly as it becomes soft with age."
+  },
+  "bitter_gourd": {
+    "name": "Bitter Gourd",
+    "hindi_name": "करेला",
+    "calories_per_100g": 17,
+    "calories_per_item": 17,
+    "vitamins": ["Vitamin C", "Folate", "Vitamin A"],
+    "minerals": ["Potassium", "Zinc"],
+    "fiber_g": 2.8,
+    "benefits": [
+      "May help lower blood sugar levels",
+      "Rich in antioxidants",
+      "May reduce inflammation",
+      "Supports liver health",
+      "High in fiber for digestive health"
+    ],
+    "storage_days_fresh": 5,
+    "storage_days_ambient": 3,
+    "storage_days_fridge": 7,
+    "storage_tips": "Store in refrigerator crisper. Keep in perforated bag. Use quickly as it becomes more bitter with age."
+  }
+}
+
+
