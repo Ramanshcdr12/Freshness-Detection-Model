@@ -139,6 +139,9 @@ class HeatmapGenerator:
             Explanation string
         """
         # Calculate statistics
+        if heatmap is None:
+            return "Heatmap could not be generated."
+
         mean_heat = np.mean(heatmap)
         std_heat = np.std(heatmap)
         
